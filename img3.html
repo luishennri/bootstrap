@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap exercicio 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+    header{
+      background-color: lightgreen;
+      border: 1.5px solid black;
+      border-radius: 5px;
+      height: 80px;
+    }
+    p{
+      text-align: center;
+      position: relative;
+      top: 24px
+    }
+    .Section{
+      text-align: center;
+      position: relative;
+      top: 80px
+    }
+    aside{
+      background-color: lightgreen;
+      border: 1.5px solid black;
+      border-radius: 5px;
+      height: 80px;
+      vertical-align: auto;
+    }
+    section{
+      background-color: lightgreen;
+      border: 1.5px solid black;
+      border-radius: 5px;
+      height: 200px;
+    }
+    footer{
+      background-color: lightgreen;
+      border: 1.5px solid black;
+      border-radius: 5px;
+      height: 80px;
+    }
+  </style>
+</head>
+<body>
+    <div class="row">
+      <header  class="col-sm-12">
+        <p>Header</p>
+      </header>
+    </div>
+    <article  class="row">
+      <div class="col-sm-2">
+        <aside>
+          <p>Aside</p>
+        </aside>
+        <aside>
+          <p>Aside</p>
+        </aside>
+      </div> 
+      <section class="col-sm-8">
+        <p class="Section">Section</p>
+      </section>  
+      <div class="col-sm-2">
+        <aside>
+          <p>Aside</p>
+        </aside>
+        <aside>
+          <p>Aside</p>
+        </aside>
+      </div>
+    </article>
+    <footer class="col-sm-12">
+        <p>Footer</p>   
+    </footer> 
+</body>
+</html>
